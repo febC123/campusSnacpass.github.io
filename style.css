@@ -1,0 +1,735 @@
+*{
+  text-decoration: none;
+
+}
+ .nav{
+  padding-left: 0px;
+  padding-right: 0px;
+
+ } 
+ .display{
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  justify-content: space-between;
+ }
+    
+       .pic-display {
+     margin-left: 26px;
+
+      }
+      .pic-display img {
+        border-radius: 10.3%;
+      }
+
+        .block {
+      
+       
+      font-weight:  bold;
+       margin-right: 440px;
+      font-size: 24px;
+     }
+     
+   
+     
+
+ li{
+    list-style: none;
+    display: inline-block;
+
+  }
+   li a{
+     margin-right: 25px;
+     font-size:18px;
+
+   }
+   button{
+
+    background-color: blue; margin-left: 10px; padding: 11px;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10.6%;  
+
+   }
+   button a{
+     color: white; font-weight: bold; font-size: 17px;
+
+   }
+   
+   * {
+     box-sizing: border-box;
+   }
+   .mon{
+    padding-top:30px;
+    margin-left: 190px;
+    max-width:  80%;
+    display: flex;
+    
+
+    
+   }
+
+   .mon img{
+    border-radius: 5%;
+    
+   } 
+     .omg{
+      float: left;
+     gap: 10px;
+
+
+     }
+     
+   
+   .text{
+
+    color: black;
+    margin-right: 10px;
+   } 
+    .text h1{
+    font-size: 50px;
+
+   } .text p {
+    font-size: 25PX;
+    color:gray ;
+
+  
+
+  }
+   .circle{
+    right: 170px;
+    top: 390px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  background: black;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+   
+
+   
+   .box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  animation: rotateText 5s infinite;
+}
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+   
+
+   .box span {
+  position: absolute;
+   left: 50%;
+   right: 50%;
+  font-size:0.7em;
+  transform-origin: 0 50px;
+}
+
+.man{
+
+    padding-top:5px;
+    margin-left: 140px;
+    max-width:  80%;
+    display: flex ;
+    align-items:center  ;
+    justify-content:space-around    ;
+    
+
+  }
+
+   .man img{
+    border-radius:5%;
+   }
+
+   .pob{
+    margin-right: 100px;
+    display: flex ;
+    align-items:center  ;
+    justify-content:space-around    ;
+    
+    
+   }
+
+   .tab{
+
+    margin-left: 100px;
+   }
+
+   .tab h1{
+
+    font-size: 50px;
+   }
+   .tab p{
+    font-size: 25px;
+    color: gray;
+   }
+    .tab button{
+      background-color: whitesmoke; margin-left: 10px; padding: 11px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10.6%;  
+
+    }
+
+    .tab button a{
+      color: black;
+      font-size: 17px;
+    } 
+
+    .mode{
+      margin-left: 190px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+     .mode img{
+      border-radius: 5%;
+     }
+
+   .tru{
+    color: black;
+    margin-right: 150px;
+   }
+
+    .tru h1{
+     
+    
+    font-size: 50px;
+   } 
+    .tru p {
+      color: gray;
+      font-size: 25px;
+    }
+
+    .mode button{
+      background-color: whitesmoke; margin-left: 10px; padding: 11px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 15;  
+    }
+
+    .mode button a{
+      color: black;
+      font-size: 17px;
+    
+
+    }
+    .inputbox {
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-around ;
+    
+    
+    }  
+
+    .cont{
+       margin-left: 100px;
+
+    }
+    .bux{
+      outline-color: white;
+      border: whitesmoke;
+    }
+
+    .bux input{
+      outline: none;
+     outline: white;
+      width: 400px;
+      height: 50px;
+      
+    }
+    .ox{
+       margin-right: 0px;
+    }
+
+    .ox button{
+      
+      width: 370px;
+      height: 50px;
+      border-radius: 5px;
+    }
+      .teet h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+
+      }
+      .teet p{
+        font-size: 20px;
+        color: gray;
+      }
+
+       .toptext{
+        margin-top: 5%;
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+       }
+       .toptext h1{
+        font-size: 30px;
+
+       }
+       .toptext p{
+        font-size: 50px;
+        color: black;
+       } .images{
+         
+        margin:0% 0% 0% 0%;
+       }.images img{
+         align-items: center;
+        width: 390px;
+       }
+
+       .txtimage{
+        position: relative;
+        margin: 2%;
+        margin-top: -33%;
+       }.txtimage h1{
+
+        text-align: left;
+       color: black;
+       font-size: 23px;
+       }.boximages{
+        position: relative;
+         top: 270px;
+         right: 30px;
+        margin: 2%;
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        border-radius: 15px;
+
+        color: white;
+        background-color: black;
+       }.boximages button2 a{
+        color: white;
+       
+       }
+       .cp{
+        margin-left: 32.5%;
+        margin-top: -9.6%;
+       }.txtimage2{
+        position: relative;
+        margin: 2%;
+        margin-top: -49%;
+       }.txtimage2 h1{
+
+        text-align: left;
+       color: black;
+       font-size: 23px;
+       }.boximages2{
+        position: relative;
+         top: 270px;
+         right: 30px;
+        margin: 4%;
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        border-radius: 15px;
+
+        color: white;
+        background-color: black;
+       }
+
+       .pic{
+        
+        margin-left: 48.3%;
+        margin-top: -15.5%;
+       }.txtimage3{
+        position: relative;
+        margin: 2%;
+        margin-top: -95%;
+       }.txtimage3 h1{
+
+        text-align: left;
+       color: black;
+       font-size: 23px;
+       }.boximages3{
+        position: relative;
+         top: 287px;
+         right: 5px;
+        margin: 4%;
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        border-radius: 15px;
+
+        color: white;
+        background-color: black;
+       }
+
+
+
+      
+       
+
+        .logoslide h1{
+          word-spacing: 40px;
+          letter-spacing: 5px;
+
+          color: white;
+        font-size:20px;
+        margin: 0 20px;
+       }
+
+       @keyframes slide{
+        from{
+          transform: translateX(0);
+
+        }
+        to{
+          transform: translateX(-100%);
+        }
+       }
+       .logosnack12{
+        margin-top: 27%;
+        overflow: hidden;
+        padding: 0px 0px;
+        background: black;
+       }.brand{
+        white-space: nowrap;
+        margin-left: 20px;
+        animation: 5s slide infinite linear;
+       }.brand h1{
+        font-size: 18px;
+        color: white;
+        letter-spacing: 10px;
+        word-spacing: 20px;
+        white-space: 20px;
+       }
+       .toptext2{
+        margin-top: 5%;
+        font-size: 20px;
+        font-weight: bold;
+       }
+       .toptext2 h1{
+        font-size: 20px;
+        color: blue;
+       }
+       .toptext2 p{
+        font-size: 50px;
+        color: black;
+       }
+        .images2{
+          position: relative;
+        display: inline-block;
+        overflow: hidden;
+         
+      
+
+        max-width: 100%;
+       } .images2 img{
+         
+         width: 390px;
+       } .txtimage4  h1{
+          position: absolute;
+          left:20px;
+          top: 5px;
+          font-size: 20px;
+       
+       }.button4{
+        position: absolute;
+        top: 86%;
+        left: 10px;
+        width: 120px;
+        height: 20px;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        background-color: black;
+
+       }
+       .button4 button7{
+        width: 200px;
+       }
+       .images3{
+          position: relative;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 100%;
+      }.images3 img{
+        width: 390px;
+        height: 390px;
+      }.txtimage5  h1{
+          position: absolute;
+          left:20px;
+          top: 5px;
+          font-size: 20px;}
+       .button5{
+        position: absolute;
+        top: 86%;
+        left: 10px;
+        width: 120px;
+        height: 20px;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        background-color: black;
+
+       } .images4{
+          position: relative;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 100%;
+      }.images4 img{
+        width: 390px;
+        height: 390px;
+      }.txtimage6  h1{
+          position: absolute;
+          left:20px;
+          top: 5px;
+          font-size: 20px;}
+       .button6{
+        position: absolute;
+        top: 86%;
+        left: 10px;
+        width: 120px;
+        height: 20px;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        background-color: black;}
+         
+         .toptext3{
+        margin-top: 5%;
+        font-size: 20px;
+        font-weight: bold;
+       }
+       .toptext3 h1{
+        font-size: 20px;
+        color: blue;
+       }
+       .toptext3 p{
+        font-size: 50px;
+        color: black;
+       }
+       @keyframes slide{
+        from{
+          transform: translateX(0);
+
+        }
+        to{
+          transform: translateX(-100%);
+        }
+       }
+       .logosnack13{
+        margin-top: 0%;
+        overflow: hidden;
+        padding: 0px 0px;
+        background: black;
+       }.brand2{
+        white-space: nowrap;
+        margin-left: 20px;
+        animation: 5s slide infinite linear;
+       }.brand2 h1{
+        font-size: 18px;
+        color: white;
+        letter-spacing: 10px;
+        word-spacing: 20px;
+        white-space: 20px;
+       }
+        .images5{
+
+          position: relative;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 100%;
+      }.images5 img{
+        width: 390px;
+        height: 390px;
+      }.txtimage7  h1{
+          position: absolute;
+          left:20px;
+          top: 5px;
+          font-size: 20px;}
+       .button7{
+        position: absolute;
+        top: 86%;
+        left: 10px;
+        width: 120px;
+        height: 20px;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        background-color: black;}
+
+         .images6{
+          position: relative;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 100%;
+      }.images6 img{
+        width: 390px;
+        height: 390px;
+      }.txtimage8  h1{
+          position: absolute;
+          left:20px;
+          top: 5px;
+          font-size: 20px;}
+       .button8{
+        position: absolute;
+        top: 86%;
+        left: 10px;
+        width: 120px;
+        height: 20px;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        background-color: black;}
+
+        .images7{
+          position: relative;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 100%;
+      }.images7 img{
+        width: 390px;
+        height: 390px;
+      }.txtimage9  h1{
+          position: absolute;
+          left:20px;
+          top: 5px;
+          font-size: 20px;}
+       .button9{
+        position: absolute;
+        top: 86%;
+        left: 10px;
+        width: 120px;
+        height: 20px;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        background-color: black;}
+         
+
+         @keyframes slide{
+        from{
+          transform: translateX(0);
+
+        }
+        to{
+          transform: translateX(-100%);
+        }
+       }
+       .logosnack14{
+        margin-top: 0%;
+        overflow: hidden;
+        padding: 0px 0px;
+        background: black;
+       }.brand3{
+        white-space: nowrap;
+        margin-left: 20px;
+        animation: 5s slide infinite linear;
+       }.brand3 h1{
+        font-size: 18px;
+        color: white;
+        letter-spacing: 10px;
+        word-spacing: 20px;
+        white-space: 20px;
+
+      }.bux2{
+        display: flex;
+        top: 30%;
+        align-items: center;
+        justify-content: space-between;
+      }
+       .teet2{
+        margin-left: 120px;
+       }
+       .teet2 h1{
+
+        font-size: 50px;
+        font-weight: bold;
+        color: black;
+       }
+       .teet2 p{
+        font-size: 20px;
+        color: gray;
+       }
+       .text4{
+
+        margin-right: 200px;
+        display: flex;
+        align-items: inherit;
+        justify-content: space-between;
+       }
+       .text5 h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+
+       } .text5 h2{
+        font-size: 20px;
+        color: gray;
+       }
+       .text6 h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+
+       } .text6 h2{
+        font-size: 20px;
+        color: gray;
+       }
+
+      .text7 h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+
+       } .text7 h2{
+        font-size: 20px;
+        color: gray;
+       }
+
+       .logofooters{
+        display: flex;
+        align-items: center;
+
+        justify-content: space-between;
+       } 
+       .logofooters h1{
+        font-size: 16px;
+        color: gray;
+       }.footer{
+        
+        
+        display: flex;
+
+       }.footer li img{
+
+        
+        
+         width: 20px;
+        
+        
+       }
+
+      
+
+      
+      
+       
+       
+
+
+
+       
